@@ -1,0 +1,37 @@
+%icon {
+  position: absolute;
+  top: calc(50% - 26px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+
+  &.disabled {
+    color: #fff;
+    opacity: 0.5;
+  }
+}
+
+.icon-prev {
+  @extend %icon;
+  left: -45px;
+}
+
+.icon-next {
+  @extend %icon;
+  right: -45px;
+  transform: scaleX(-1);
+}
+
+.chip-slider {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.chip-container {
+  display: flex !important;
+  justify-content: center;
+}
