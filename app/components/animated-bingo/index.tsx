@@ -42,7 +42,10 @@ const AnimatedBingo = () => {
           />
         </Container>
       </Stage>
-      <button className="button text-white" onClick={() => setPlayAnim(true)}>
+      <button
+        className="button text-white"
+        onClick={() => setPlayAnim(!playAnim)}
+      >
         Play
       </button>
     </div>

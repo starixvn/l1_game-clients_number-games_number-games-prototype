@@ -9,7 +9,6 @@ import Ball from "@/app/components/ball";
 import Scoreboard from "@/app/components/scoreboard";
 import { BetOptionData, RoundResultData } from "@/app/common/constants";
 import AnimatedBingo from "@/app/components/animated-bingo";
-import BallSVG from "./ballSVG";
 
 const betData: BetOptionData[] = [
   {
@@ -114,7 +113,7 @@ export default function NumberWar() {
           </div>
         </div>
       </div>
-      {/* <AnimatedBingo /> */}
+      <AnimatedBingo />
 
       <div className={`${Style["betting-zone"]} mt-6`}>
         <div className={Style["left-corner"]}></div>
