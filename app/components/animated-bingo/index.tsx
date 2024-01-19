@@ -38,6 +38,8 @@ const AnimatedBingo = () => {
         </button>
       </div>
     );
+  } else {
+    return null;
   }
 };
 
